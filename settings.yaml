@@ -1,0 +1,28 @@
+RealEstateBonusAgentService:
+    Db:
+        LogsConnString:
+            settings-key: RealEstateBonusAgentService-LogsConnString
+            types:
+              - AzureTableStorage
+        MsSqlConnectionString:
+            settings-key: RealEstateBonusAgentService-MsSqlConnectionString
+    Rabbit:
+        ConnectionString:
+            settings-key: IntegrationRabbitMQ
+            types:
+              - RabbitMq
+ReferralServiceClient:
+    ServiceUrl:
+        settings-key: ReferralServiceUrl
+SlackNotifications:
+    AzureQueue:
+        ConnectionString:
+            settings-key: SlackNotificationsConnString
+            types:
+                - AzureTableStorage
+        QueueName:
+            settings-key: SlackQueueName
+MonitoringServiceClient:
+    MonitoringServiceUrl:
+        settings-key: MonitoringServiceUrl
+

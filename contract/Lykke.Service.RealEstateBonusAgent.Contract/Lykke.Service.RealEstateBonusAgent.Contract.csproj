@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Version>1.0.1</Version>
+      <PackageTags>Lykke</PackageTags>
+      <PackageId>Falcon.Service.RealEstateBonusAgent.Contract</PackageId>
+    </PropertyGroup>
+
+</Project>
