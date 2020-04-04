@@ -20,7 +20,7 @@ namespace MAVN.Service.RealEstateBonusAgent.MsSqlRepositories.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Lykke.Service.RealEstateBonusAgent.MsSqlRepositories.Entities.DownPaymentEntity", b =>
+            modelBuilder.Entity("MAVN.Service.RealEstateBonusAgent.MsSqlRepositories.Entities.DownPaymentEntity", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -61,7 +61,7 @@ namespace MAVN.Service.RealEstateBonusAgent.MsSqlRepositories.Migrations
                     b.ToTable("down_payment");
                 });
 
-            modelBuilder.Entity("Lykke.Service.RealEstateBonusAgent.MsSqlRepositories.Entities.InstallmentEntity", b =>
+            modelBuilder.Entity("MAVN.Service.RealEstateBonusAgent.MsSqlRepositories.Entities.InstallmentEntity", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
